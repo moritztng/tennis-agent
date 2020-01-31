@@ -57,8 +57,8 @@ I framed this problem as a Markov Decision Process. Therefore it makes sense to 
 
 You have to options to train the agent. 
 
-1. Run the [Notebook](train.ipynb). (Make sure to choose the `drlnd` Kernel) 
-2. Run `visdom` and then `train.py`. (Use `python train.py -h` to see all options)
+1. Run the [Notebook](train_ddpg.ipynb). (Make sure to choose the `drlnd` Kernel) 
+2. Run `visdom` and then `train_ddpg.py`. (Use `python train_ddpg.py -h` to see all options)
 
 The benefit of the second option is, that you can watch the live training metrics.
 
